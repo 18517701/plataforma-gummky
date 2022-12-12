@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: auto;
+  text-decoration: none;
+}
+main {
+  font-family: "Heebo", sans-serif;
+}
+a:link, a:visited, a:active {
+  text-decoration:none;
+  text-decoration-color: rgb(97, 105, 109);
+}
+.landing {
+  min-height: 100vh;
+  background: url(./childrens.jpg);
+  background-size: cover;
+  padding: 0rem 5rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 7vh;
+  color: rgb(26, 24, 24);
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  color:white(64, 53, 223, 0.952);
+  
+}
+.nav-links li {
+  padding-left: 10rem;
+  font-size: 1.2rem;
+  
+}
+#logo {
+  font-family: "Lobster", cursive;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.href {
+  color:rgb(97, 105, 109)
+  
+}
+.nav-links{
+
+  cursor: default
+
+}
+/*SE CAMBIARON LOS CURSORES 24/04/2021*/
+a{ 
+  cursor : pointer;
+  color: black;
+}
+.big-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  font-size: 5rem;
+  font-family: "Lobster", cursive;
+  color: rgb(10, 10, 10);
+}
+
+.intro {
+  background:black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./GRADIENT.jpg);
+
+}
+.slider {
+  background: rgb(90, 93, 95);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+
+.intro-text {
+  color: white;
+  font-family: "Heebo", sans-serif;
+  font-size: 3rem;
+
+}
+
+.hide {
+  background: rgba(250, 249, 249, 0);
+  overflow: hidden;
+  
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
